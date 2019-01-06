@@ -44,7 +44,7 @@ public class SwitchingGoogleFacebook {
 	
 	@AfterMethod
 	public void tearDown(){
-		driver.quit();
+		driver.close();
 	}
 	
 }
