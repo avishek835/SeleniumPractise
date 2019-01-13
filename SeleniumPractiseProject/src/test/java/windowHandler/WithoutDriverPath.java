@@ -23,7 +23,7 @@ public class WithoutDriverPath {
 		driver=new ChromeDriver();*/
 		WebDriverManager.firefoxdriver().setup();
 		driver=new FirefoxDriver();
-		
+		 
 	}
 	
 	

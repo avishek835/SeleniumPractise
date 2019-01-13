@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="windowHandler.WithoutDriverPath">
+      <class name="singleTonInSeleniumFramework.SingleTonTestFile">
         <methods>
-          <include name="openChromeBrowser"/>
+          <include name="testMethod2"/>
+          <include name="quit"/>
+          <include name="open"/>
         </methods>
-      </class> <!-- windowHandler.WithoutDriverPath -->
+      </class> <!-- singleTonInSeleniumFramework.SingleTonTestFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

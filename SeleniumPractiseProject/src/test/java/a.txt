@@ -1,0 +1,4 @@
+illelagalStateException:- if driver.exe not specified
+NoSuchElemetException:- if web elements mismatch, id, name, xpath etc
+nullpointer exception:- if anything not initialize example:- int a instead of int a=2;
+timeoutexception:- if specified time out in case of explicit/ implicit.
