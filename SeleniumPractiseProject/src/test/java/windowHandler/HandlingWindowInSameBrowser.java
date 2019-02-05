@@ -11,6 +11,8 @@ import org.testng.annotations.Test;
 public class HandlingWindowInSameBrowser {
 	
 	WebDriver driver;
+	
+	
 	@Test
 	public void handlingWindowInSameBrowser()
 	{
